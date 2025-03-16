@@ -56,7 +56,7 @@ body {
 }
 
 mark {
-	background-color: transparent;
+	background-color: #2d423f;
 	color: inherit;
 }
 
@@ -82,9 +82,10 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-	body {
-		background: #fff;
+	html, body {
+		background-color: #ffffff !important;
 	}
+	
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
@@ -117,7 +118,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #2bd4da !important;
 		}
 
 	strong, b {
@@ -132,9 +133,16 @@ input, select, textarea {
 	p {
 		margin: 0 0 2.25em 0;
 	}
+	h1 {
+		font-size: 2.5em;
+		color: #f8f8f8;
+		font-weight: 5000;
+		line-height: auto;
+		margin: 0 0 0.5625em 0;
+	}
 
-	h1, h2, h3, h4, h5, h6 {
-		color: #777;
+	h2, h3, h4, h5, h6 {
+		color: #181818;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -1785,7 +1793,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: #2bd4da;
 		font-size: 3.5em;
 	}
 
@@ -1848,7 +1856,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4acaa8;
+			border-color: #2bd4da;
 		}
 
 	select {
@@ -1953,7 +1961,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4acaa8;
+			border-color: #2bd4da;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2402,7 +2410,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #4acaa8;
+				background: #2bd4da;
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
@@ -2618,7 +2626,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #4acaa8;
+			background-color: #123738;
 			color: #ffffff !important;
 		}
 
@@ -2626,14 +2634,14 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #5ed0b1;
+				background-color: #0b494b;
 			}
 
 			input[type="submit"].primary:active,
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active {
-				background-color: #39c29d;
+				background-color: #094d50;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2700,7 +2708,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
+		background: #123738;
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2720,11 +2728,11 @@ input, select, textarea {
 			}
 
 		#header header p {
-			color: #b7eadc;
+			color: #2bd4da;
 		}
 
 		#header a {
-			color: #d2f2e9;
+			color: #2bd4da;
 		}
 
 			#header a:hover {
@@ -2751,7 +2759,7 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #d2f2e9;
+				color: #2bd4da;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2772,7 +2780,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #b7eadc;
+					color: #2bd4da;
 				}
 
 		#header > nav {
@@ -2789,7 +2797,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					border-top: solid 2px #075255;
 					display: block;
 					padding: 0;
 				}
@@ -2808,7 +2816,7 @@ input, select, textarea {
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #4acaa8 !important;
+							color: #2bd4da !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -2949,6 +2957,11 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+			.slider-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
 
 		/* Image */
 
@@ -3076,7 +3089,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
+						background: #2bd4da;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
