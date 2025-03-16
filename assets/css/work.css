@@ -1,0 +1,141 @@
+/* Genel Stiller */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+#project-code {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffffff; /* Arka plan rengini ayarla */
+    color: #fff; /* Yazı rengini beyaz yap */
+    border-radius: 8px; /* Köşeleri yuvarlak yap */
+    margin-right: 300px; /* Sağdan boşluk ekleyerek sağa kaymayı engelle */
+}
+
+pre {
+    background-color: #333; /* Kod kutusunun arka planını koyulaştır */
+    padding: 5px; /* İçeriği kutudan biraz uzaklaştır */
+    border-radius: 5px; /* Köşeleri yuvarlak yap */
+    overflow-x: auto; /* Uzun kodlar için yatay kaydırma ekle */
+    margin-right: 300px; /* Sağ taraftan ekstra boşluk ekle */
+}
+
+code {
+    font-family: "Source Code Pro", monospace; /* Yazı tipi seçimi */
+    font-size: 1em; /* Yazı büyüklüğü */
+}
+
+  
+
+header {
+    background-color: #123738;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+nav .home-link {
+    position: absolute;
+    top: 10px; /* Üstten 10px uzaklık */
+    left: 10px; /* Soldan 10px uzaklık */
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav .home-link:hover {
+    color: #2bd4da; /* Hover durumunda renk değişimi (örneğin domates kırmızısı) */
+    font-size: 20px; /* Hover durumunda font boyutunu büyütme */
+    text-decoration: underline; /* Alt çizgi ekleyebilirsiniz */
+}
+
+
+h1 {
+    margin: 0;
+}
+
+#work-detail {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Slider Container düzenlemesi */
+.slider-container {
+    display: flex; /* Flexbox kullanarak buton ve resmi yatayda hizalıyoruz */
+    justify-content: center;
+    align-items: center; /* Dikeyde ortalamak için */
+    margin-bottom: 20px;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.slider img {
+    width: auto; /* Resmin genişliğini sabit tutarak hizalama yapıyoruz */
+    height: 500px;
+    margin: 0 10px; /* Resimler arasına boşluk ekliyoruz */
+    transition: transform 0.3s ease; /* Resimlerin geçiş efekti */
+}
+
+/* Butonlar */
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 15px; /* Butonlar arasında boşluk */
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Genel Video ve Link Stili */
+video {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 20px auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
